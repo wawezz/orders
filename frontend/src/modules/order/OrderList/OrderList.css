@@ -1,0 +1,15 @@
+.OrderList {
+
+}
+
+.OrderList-Item {
+    cursor: pointer;
+    margin: 15px 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.OrderList-Item.selected {
+    font-weight: bold;
+}
